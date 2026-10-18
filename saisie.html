@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Saisie des notes</title>
+</head>
+<body>
+    <h1>Saisie des notes (POST)</h1>
+    <form action="traitement.php" method="POST">
+        <label>Nom de l'apprenant : <input type="text" name="nom" required></label><br><br>
+        <label>Note Info : <input type="number" name="note_info" min="0" max="20" required></label><br><br>
+        <label>Note Math : <input type="number" name="note_math" min="0" max="20" required></label><br><br>
+        <button type="submit">Enregistrer</button>
+    </form>
+</body>
+</html>
